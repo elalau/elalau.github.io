@@ -1,19 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Trispace&display=swap'); 
 
 html {
-
+    font-size: 16rpx;
 }
 
 body {
-
+    background-color:seashell;
+    font-family: 'Trispace', sans-serif; 
+    line-height: 1.5;
+    color: #A1B9E2;
+    max-width: 87.5rem;
+    margin: 5rem auto; 
 }
 
 header { 
-
+   
 }
 
 nav {
-
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
 }
 
 main {
@@ -21,5 +28,29 @@ main {
 }
 
 footer {
+    width: 72rem;
+    margin:auto;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
 
+h1 {
+    font-family: 'GFS Didot', serif;
+    color: #345BBD; 
+    font-size: 2rem;
+    font-weight: 700; 
+    font-style: normal; 
+}
+
+a {
+    color:#A1B9E2; 
+    text-decoration: none;
+    margin: 0 0 0 2rem; 
+}
+
+a:visited,
+.selected { 
+    color:#345BBD;
+    border-bottom: 1px solid #345BBD;
 }
