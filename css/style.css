@@ -25,7 +25,8 @@ nav {
 }
 
 main {
-
+    max-width: 87.5rem;
+    margin: 5rem auto; 
 }
 
 footer {
@@ -101,5 +102,11 @@ a:visited,
 
 }
 
+#date_1 {
+    grid-column:1/2; 
+}
 
+#title_1 {
+    grid-column: 4/12;
+}
 
