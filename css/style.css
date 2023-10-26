@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Trispace&display=swap'); 
 
 html {
-    font-size: 16rpx;
+    font-size: 16px;
 }
 
 body {
-    background-color:white;
+    background-color:pink;
     font-family: 'Trispace', sans-serif; 
     line-height: 1.5;
     color: #A1B9E2;
-    max-width: 87.5rem;
+    max-width: 87.5em;
     margin: 5rem auto; 
 }
 
@@ -24,9 +24,22 @@ nav {
     grid-column:1/12;
 }
 
+nav h1:hover { 
+    color:#345BBD;
+    border-bottom: 2px solid #345BBD;
+}
+
 main {
     max-width: 87.5rem;
     margin: 5rem auto; 
+}
+
+section {
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 2em;
+    grid-auto-flow: dense;
+    margin: 3em auto;
 }
 
 footer {
@@ -51,10 +64,8 @@ a {
     margin: 0 0 0 2rem; 
 }
 
-a:visited,
-.selected { 
-    color:#345BBD;
-    border-bottom: 1px solid #345BBD;
+a:hover { 
+
 }
 
 #tagline {
@@ -62,21 +73,25 @@ a:visited,
     grid-column: 2/11; 
 } 
 
+
 #project_1 {
-    grid-column: 1/7; 
+    grid-column: 1/7;
+}
+
+#project_1 img{
+    width: 
 }
 
 #description_1 {
-
+    grid-column: 7/13;
 }
 
 #project_2 {
-    grid-column: 7/12;
-    grid-row: auto;
+    grid-column: 7/13;
 }
 
 #description_2 {
-
+    grid-column: 3/7;
 }
 
 #project_3 {
