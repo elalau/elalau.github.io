@@ -6,7 +6,7 @@ html {
 
 body {
     background-color: white;
-    font-family: 'Trispace', sans-serif; 
+    font-family: 'Urbanist', sans-serif; 
     line-height: 1.5;
     color: gray;
     max-width: 87.5em;
@@ -86,7 +86,7 @@ a:hover {
 }
 
 #description_1 {
-    grid-column: 7/13;
+    grid-column: 2/7;
 }
 
 #project_2 {
@@ -141,3 +141,14 @@ a:hover {
     grid-column: 4/13;
 }
 
+#aboutpic {
+    grid-column: 3/7;
+}
+
+#abouthead {
+    grid-column: 8/12;
+}
+
+#aboutp {
+    grid-column: 2/12;
+}
