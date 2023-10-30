@@ -5,7 +5,9 @@ html {
 }
 
 body {
-    background-color: white;
+    background-image: url(../img/background4.jpg);
+    background-repeat: no-repeat;
+    background-size: auto; 
     font-family: 'Urbanist', sans-serif; 
     line-height: 1.5;
     color: gray;
@@ -13,9 +15,6 @@ body {
     margin: 5rem auto; 
 }
 
-background-image: url(../img/background3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 
 header { 
    
