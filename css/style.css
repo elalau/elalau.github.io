@@ -73,11 +73,12 @@ a {
     margin: 0 0 0 2rem; 
 }
 
-#splash { 
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+.splash { 
+    position: absolute;
     margin: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 #subline {
