@@ -140,25 +140,38 @@ a {
 }
 
 #date_1 {
-    grid-column: 3/5;
+    grid-column: 2/4;
+    border: solid 10px; 
+    border-width: 3px 10px 12px 4px;
+    padding-left: 25px;
+    background-color:aliceblue; 
 }
 
 #title_1 {
-    grid-column: 5/13;
+    grid-column: 4/12;
+    border: solid 10px; 
+    border-width: 3px 10px 12px 4px;
+    padding-left: 25px;
+    background-color: aliceblue;
 }
 
 #paragraph_1 {
-    grid-column: 5/13;
+    grid-column: 4/12;
+    border: solid 10px;
+    border-width: 3px 10px 12px 4px;
+    padding-left: 25px;
+    background-color: aliceblue; 
 }
 
 #aboutpic {
-    grid-column: 3/7;
+    grid-column: 2/6;
 }
 
 #abouthead {
-    grid-column: 8/12;
+    grid-column: 7/12;
+    padding-top: 5rem;
 }
 
 #aboutp {
-    grid-column: 2/12;
+    grid-column: 8/12;
 }
