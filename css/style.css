@@ -43,6 +43,13 @@ main {
     margin: 5rem auto; 
 }
 
+#splash { 
+    position: fixed;
+    top: 15rem; 
+    left: 35rem; 
+    margin: auto;
+}
+
 section {
     display: grid; 
     grid-template-columns: repeat(12, 1fr);
@@ -59,8 +66,6 @@ footer {
     justify-content:space-between; 
     padding-top: 10rem; 
 } 
-
-
 
 h1 {
     font-family: 'Urbanist', sans-serif; 
@@ -82,13 +87,6 @@ nav, a {
     margin: 0 0 0 2rem; 
 }
 
-.splash { 
-    position: absolute;
-    margin: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
 
 footer a {
     margin: 0; 
@@ -147,7 +145,7 @@ footer a:hover {
 }
 
 #description_5 {
-    grid-column: 7/9; 
+    grid-column: 7/10; 
 }
 
 #project_6 {
@@ -200,7 +198,7 @@ footer a:hover {
     border: solid 10px; 
     border-width: 3px 10px 12px 4px;
     padding-left: 25px;
-    background-color:aliceblue; 
+    background-color:orangered; 
 }
 
 #title_2 {
