@@ -249,14 +249,14 @@ footer a:hover {
 }
 
 #contact {
-    grid-column:4/7; 
-    border-radius: 5px;
+    grid-column:3/6; 
+    border-radius: 5px; 
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 20px; 
 } 
 
 #contactbox {
-    grid-column:4/7; 
+    grid-column:6/10;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px; 
@@ -266,7 +266,7 @@ footer a:hover {
     grid-column:7/11; 
     border-radius: 5px;
     background-color: #f2f2f2; 
-    padding: 20px
+    padding: 40px
 }
 
 #instagram {
