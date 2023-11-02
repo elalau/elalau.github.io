@@ -198,7 +198,7 @@ footer a:hover {
     border: solid 10px; 
     border-width: 3px 10px 12px 4px;
     padding-left: 25px;
-    background-color:orangered; 
+    background-color:#F5B9A6; 
 }
 
 #title_2 {
@@ -206,7 +206,7 @@ footer a:hover {
     border: solid 10px; 
     border-width: 3px 10px 12px 4px;
     padding-left: 25px;
-    background-color: aliceblue;
+    background-color: #F5B9A6;
 }
 
 #paragraph_2 {
@@ -214,7 +214,38 @@ footer a:hover {
     border: solid 10px;
     border-width: 3px 10px 12px 4px;
     padding-left: 25px;
-    background-color: aliceblue; 
+    background-color: #F5B9A6; 
+}
+
+#date_3 {
+    grid-column: 2/4;
+    border: solid 10px; 
+    border-width: 3px 10px 12px 4px;
+    padding-left: 25px;
+    background-color: bisque; 
+}
+
+#title_3 {
+    grid-column: 4/12;
+    border: solid 10px; 
+    border-width: 3px 10px 12px 4px;
+    padding-left: 25px;
+    background-color: bisque;
+}
+
+#paragraph_3 {
+    grid-column: 4/12;
+    border: solid 10px;
+    border-width: 3px 10px 12px 4px;
+    padding-left: 25px;
+    background-color: bisque; 
+}
+
+#img_3 {
+    grid-column: 4/12;
+    border: solid 10px;
+    border-width: 3px 10px 12px 4px;
+    background-color: bisque; 
 }
 
 #contact {
