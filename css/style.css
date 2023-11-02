@@ -217,3 +217,37 @@ footer a:hover {
     background-color: aliceblue; 
 }
 
+#contact {
+    grid-column:4/7; 
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+} 
+
+#contactbox {
+    grid-column:4/7; 
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px; 
+}
+
+#email {
+    grid-column:7/11; 
+    border-radius: 5px;
+    background-color: #f2f2f2; 
+    padding: 20px
+}
+
+#instagram {
+    grid-column:7/11; 
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+#resume {
+    grid-column:7/11; 
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+ 
