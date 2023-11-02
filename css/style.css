@@ -266,4 +266,9 @@ footer a:hover {
     border-radius: 10px;
 }
 
+#contactbox a:hover {
+    margin: 0; 
+    color: orangered;
+    border-bottom: 2px solid orangered; 
+}
  
